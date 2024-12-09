@@ -1,0 +1,46 @@
+.headline {
+    color: #D26C79;
+    font-family: "Chocolate Bar Demo Regular";
+    font-size: 6rem;
+    text-align: left;
+    padding: 2rem 0rem 2rem 6rem;
+}
+
+.artwork {
+    height: 23rem;
+    width: auto;
+    object-fit: cover;
+    margin: 0.5rem;
+}
+
+.animation {
+    height: 23rem;
+    width: auto;
+    object-fit: cover;
+    margin: 0.5rem;
+    border-radius: 2.5rem;
+}
+
+.gif1 {
+    height: 23rem;
+    width: 23%;
+    object-fit: cover;
+    margin: 0.5rem;
+    border-radius: 2.5rem;
+}
+
+.gif2 {
+    height: 22.6rem;
+    width: auto;
+    object-fit: cover;
+    margin: 0.5rem;
+    border: 0.4rem solid #372222;
+    border-radius: 2.5rem;
+}
+
+.scroll {
+    white-space: nowrap;    
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding: 0 2rem;
+}

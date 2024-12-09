@@ -1,0 +1,93 @@
+.container4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem 4rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem 4rem;
+    align-items: center;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 0rem;
+    align-items: center;
+}
+
+.container1 {
+    padding: 2rem 4rem;
+    align-items: center;
+}
+
+.container0 {
+    align-items: center;
+}
+
+.headline {
+    color: #D26C79;
+    font-family: "Chocolate Bar Demo Regular";
+    font-size: 6rem;
+    text-align: center;
+    padding: 2rem;
+    padding-left: 3rem;
+}
+
+.main-image {
+    height: 40rem;
+}
+
+.image {
+    width: 40rem;
+    padding: 2rem 0;
+}
+
+.references {
+    width: 45rem;
+    padding: 2rem 0;
+}
+
+.flowchart {
+    width: 90rem;
+}
+
+.showcase {
+    height: 20rem;
+}
+
+.me1 {
+    width: 33rem;
+    padding-right: 15rem;
+}
+
+.me2 {
+    width: 30rem;
+    padding-left: 15rem;
+    transform: rotate(4.2deg);
+}
+
+.other-images {
+    width: 70rem;
+    padding: 2rem 0;
+}
+
+h1 {
+    color: #372222;
+    font-family: "Mochiy Pop One";
+    font-size: 2rem;
+    text-align: center;
+}
+
+.text {
+    color: #372222;
+    font-family: "Mochiy Pop One";
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 0 3rem;
+    padding-bottom: 2rem;
+}

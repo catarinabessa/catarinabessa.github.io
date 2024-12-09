@@ -1,0 +1,26 @@
+.headline {
+    color: #D26C79;
+    font-family:"Chocolate Bar Demo Regular";
+    font-size: 6rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.text {
+    color: #372222;
+    font-family:"Mochiy Pop One";
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 4rem 15rem;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.icon {
+    height: 4rem;
+}

@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 1fr;
+    padding: 0 5rem;
+    align-items: center;
+}
+
+.visual {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text1, .text2 {
+    color: #372222;
+    font-family:"Mochiy Pop One";
+    font-size: 1.7rem;
+}
+
+.text1 {
+    text-align: left;
+}
+
+.text2 {
+    text-align: right;
+}
+
+.headline {
+    color: #D26C79;
+    font-family:"Chocolate Bar Demo Regular";
+    font-size: 15rem;
+    letter-spacing: -1.5rem;
+}
+
+.pfp {
+    width: 80%;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.icon {
+    height: 100%;
+}
