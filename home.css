@@ -14,7 +14,7 @@
 .text1, .text2 {
     color: #372222;
     font-family:"Mochiy Pop One";
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .text1 {
@@ -28,12 +28,12 @@
 .headline {
     color: #D26C79;
     font-family:"Chocolate Bar Demo Regular";
-    font-size: 15rem;
+    font-size: 13rem;
     letter-spacing: -1.5rem;
 }
 
 .pfp {
-    width: 80%;
+    width: 75%;
 }
 
 .icons {

@@ -1,7 +1,7 @@
 .headline {
     color: #D26C79;
     font-family: "Chocolate Bar Demo Regular";
-    font-size: 6rem;
+    font-size: 5.6rem;
     text-align: left;
     padding: 2rem 0rem 2rem 6rem;
 }
@@ -22,8 +22,8 @@
 }
 
 .gif1 {
-    height: 23rem;
-    width: 23%;
+    height: 23rem; 
+    width: 26rem;
     object-fit: cover;
     margin: 0.5rem;
     border-radius: 2.5rem;
@@ -38,9 +38,6 @@
     border-radius: 2.5rem;
 }
 
-.scroll {
-    white-space: nowrap;    
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    padding: 0 2rem;
+.border {
+    border-radius: 2.5rem;
 }

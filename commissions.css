@@ -1,17 +1,18 @@
 .headline {
     color: #D26C79;
     font-family:"Chocolate Bar Demo Regular";
-    font-size: 6rem;
+    font-size: 5.6rem;
     text-align: center;
     text-decoration: none;
+    padding: 2.5rem;
 }
 
 .text {
     color: #372222;
     font-family:"Mochiy Pop One";
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: center;
-    padding: 4rem 15rem;
+    padding: 4rem 19rem;
 }
 
 .container {
