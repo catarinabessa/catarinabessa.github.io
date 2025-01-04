@@ -25,9 +25,9 @@ async function checkFormStatus() {
 
         if (response) {
             document.getElementById('commission-status').innerHTML =
-                '<a class="headline" href="https://docs.google.com/forms/d/e/1FAIpQLScJ90IWf4vAImuPQhIBu35K3_3otwpHyJaRMenO5RfhwalPug/viewform" target="_blank">my commissions are open</a>';
+                '<a class="headline" href="https://docs.google.com/forms/d/e/1FAIpQLScJ90IWf4vAImuPQhIBu35K3_3otwpHyJaRMenO5RfhwalPug/viewform" target="_blank">commissions are open!!</a>';
         } else {
-            document.getElementById('commission-status').textContent = 'my commissions are closed :(';
+            document.getElementById('commission-status').textContent = 'commissions are closed';
         }
 }
 

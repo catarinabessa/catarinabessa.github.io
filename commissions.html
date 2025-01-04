@@ -15,21 +15,26 @@
                 <a href="commissions.html" class="commissions">commissions</a>
             </nav>
         </div>
-        <div class="container">
-            <div class="text">
-                if you are interested in my work and wish to make a commission,
-                you
-                are more than welcome to click on the google forms link down
-                below
-                and share your ideas with me!
-            </div>
+        <div class="text">
+            if you are interested in my work and wish to make a commission,
+            you
+            are more than welcome to click on the google forms link down below
+            and share your ideas with me! 
+        </div>
+        <div class="container3">
+            <img class="left" src="images\comms-left.png"
+                    alt="accessory">
             <div id="commission-status" class="status headline">checking forms status</div>
+            <img class="right" src="images\comms-right.png"
+                    alt="accessory">
+        </div>
             <div class="text">
                 the forms will contain information about the availability of
                 slots
-                and the fixed prices.<br>i can't wait to work with you!<br><br>:D
+                and the fixed prices.<br>i can't wait to work with you!<br><br><br>if the forms are closed, don't worry i will open them once i can<br>
+                just you wait...
             </div>
-        </div>
+    
         <footer class="cat-footer">
             <div class="cats">
                 <img src="images\footer\cat1.png" class="cat cat1" alt="cat 1" />
@@ -62,4 +67,8 @@
 </html>
 
 <script src="checking_commission_url.js">
+</script>
+<script>
+    const circleType = new CircleType(document.getElementsByClassName("headline"));
+    circleType.radius(475).forceWidth();
 </script>

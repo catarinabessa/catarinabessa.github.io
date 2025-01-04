@@ -4,7 +4,8 @@
     font-size: 5.6rem;
     text-align: center;
     text-decoration: none;
-    padding: 2.5rem;
+    padding: 1rem 0;
+    
 }
 
 .text {
@@ -22,6 +23,21 @@
     gap: 1rem;
 }
 
-.icon {
-    height: 4rem;
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 9fr 1fr;
+    padding: 0 18rem;
+    align-items: center;
+  
+}
+
+.left {
+    height: 6rem;
+    margin-left: 2.65rem;
+    opacity: 0.85;
+}
+
+.right {
+    height:6rem;
+    opacity: 0.85;
 }

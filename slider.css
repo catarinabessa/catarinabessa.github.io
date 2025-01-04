@@ -3,7 +3,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-500%); 
+    transform: translateX(-100%); 
   }
 }
 .slider {
@@ -28,11 +28,9 @@
 .slider .slide-track {
   animation: scroll 60s linear infinite;
   display: flex;
-  width: calc(10rem * 7);
+  width: calc(10rem * 53.75);
 }
 .slider .slide {
   height: 6rem;
   width: 60rem;
 }
-
-/*# sourceMappingURL=slider.css.map */
