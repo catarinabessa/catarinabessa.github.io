@@ -12,36 +12,10 @@
     font-style: normal;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100vw; /* Full width of viewport */
-  height: 100vh; /* Full height of viewport */
-  overflow: hidden; /* Prevent scrolling */
-}
-
-/* Default horizontal layout */
-#landscape {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #222;
-  color: white;
-  width: 100vw;
-  height: 100vh;
-  font-size: 2rem;
-  position: relative;
-}
-
-/* Apply forced rotation in portrait mode */
-#landscape.portrait-mode {
-  transform: rotate(90deg); /* Rotate to mimic landscape */
-  transform-origin: center;
-  width: 100vh; /* Adjust width for rotated layout */
-  height: 100vw; /* Adjust height for rotated layout */
-  position: absolute;
-  top: 0;
-  left: 0;
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 nav a {
