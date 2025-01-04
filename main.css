@@ -20,7 +20,7 @@ body {
 nav a {
     color: #FFFFFF;
     font-family: "Mochiy Pop One";
-    font-size: 2.5rem;
+    font-size: 2.65rem;
     text-decoration: none;
     text-align: center;
 }
@@ -32,8 +32,14 @@ nav a {
     align-items: center;
     height:8.5rem;
     background:#7A965F;
-    padding: 0 8rem;
+    padding: 0 10rem;
     gap: 20rem;
+}
+
+.sticky {
+  position: sticky;
+  top:0;
+  z-index: 1000;
 }
 
 .chosen-button {

@@ -3,7 +3,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-400%); 
+    transform: translateX(-500%); 
   }
 }
 .slider {
@@ -12,17 +12,10 @@
   overflow: hidden;
   position: relative;
   justify-content: space-evenly;
-  width: 88.5rem;
-  padding: 0 6rem;
+  width: 108.5rem;
+  margin-left: -4rem;
 }
-.slider::before, .slider::after {
-  background: linear-gradient(to right, #fceff1d2 0%, rgba(255, 255, 255, 0) 100%);
-  content: "";
-  height: 25rem;
-  position: absolute;
-  width: 5rem;
-  z-index: 2;
-}
+
 .slider::after {
   right: 0;
   top: 0;

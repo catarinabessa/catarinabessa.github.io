@@ -7,14 +7,13 @@
 
 .visual {
     display: flex;
-    align-items: center;
     flex-direction: column;
 }
 
 .text1, .text2 {
     color: #372222;
     font-family:"Mochiy Pop One";
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .text1 {
@@ -34,6 +33,7 @@
 
 .pfp {
     width: 32rem;
+    padding-left: 5.25rem;
 }
 
 .icons {

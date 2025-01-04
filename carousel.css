@@ -79,7 +79,7 @@
    background-size: 2rem 2rem; 
    background-position: center; 
    float: right;
-   margin: -39rem -3rem 0 0;
+   margin: -27.5rem -3rem 0 0;
    display: block;
 }
 #slide1:checked ~ #controls label:nth-last-child(1),
@@ -90,7 +90,7 @@
    background-size: 2rem 2rem; 
    background-position: center; 
    float: left;
-   margin: -39rem 0 0 -3rem;
+   margin: -27.5rem 0 0 -3rem;
    display: block;
 }
 

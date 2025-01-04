@@ -30,6 +30,7 @@
     border-radius: 2.5rem;
     margin: 0 auto;
     display: block;
+    margin-top: 1rem;
 }
 
 .border {
@@ -44,7 +45,7 @@
     text-align: center;
     color: #D26C79;
     font-family: "Chocolate Bar Demo Regular";
-    text-shadow: 
+    text-shadow:
         -0.25rem -0.25rem 0 white,
         0.25rem -0.25rem 0 white,
         -0.25rem 0.25rem 0 white,
@@ -53,26 +54,49 @@
         0 0.25rem 0 white,
         -0.25rem 0 0 white,
         0.25rem 0 0 white;
-    font-size: 5.6rem;
+    font-size: 5.75rem;
     z-index: 2;
-    margin-bottom: -9rem;
+    margin-bottom: -7rem;
+    line-height: 5rem;
 }
 
 h1 {
     color: #372222;
     font-family: "Mochiy Pop One";
-    font-size: 2rem;
-    display: flex;
+    font-size: 1.6rem;
     text-align: center;
-    justify-content: center;
 }
 
 .text {
     color: #372222;
     font-family: "Mochiy Pop One";
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+}
+
+.text1 {
+    text-align: left;
+    padding-right: 2rem;
+}
+
+.text2 {
+    text-align: right;
+    padding-left: 2rem;
+}
+
+.text1 {
+    text-align: left;
+    padding-right: 2rem;
+}
+
+.text3 {
     text-align: center;
-    padding: 2rem 2rem;
+    padding: 2rem;
+}
+
+.text4 {
+    text-align: center;
+    padding: 0 0.5rem;
 }
 
 .image {
@@ -80,15 +104,19 @@ h1 {
     padding-top: 1.5rem;
 }
 
-.cute1{
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cute1 {
     text-align: left;
-    margin-right: auto;
     padding-left: 2rem;
 }
 
-.cute2{
+.cute2 {
     text-align: right;
-    margin-left: auto;
     padding-right: 2rem;
 }
 
@@ -96,9 +124,17 @@ h1 {
     width: 45rem;
 }
 
+.another_container .container_cs .flowchart {
+    height: 40rem;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0.25rem solid #372222;
+    border-radius: 1rem;
+}
+
 .flowchart {
-    width: 90rem;
-    padding-left: 9rem;
+    width: 100rem;
+    padding-top: 2rem;
 }
 
 .showcase {
@@ -122,7 +158,7 @@ h1 {
     width: 70rem;
 }
 
-.crop{
-    width:100%;
+.crop {
+    width: 100%;
     object-fit: cover;
 }
