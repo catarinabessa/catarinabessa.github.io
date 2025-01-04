@@ -12,6 +12,14 @@
     font-style: normal;
 }
 
+@media only screen and (orientation:portrait){
+  #wrapper {width:1024px}
+  }
+  
+  @media only screen and (orientation:landscape){
+  #wrapper {width:1024px}
+  }
+
 body {
     margin: 0;
     padding: 0;
