@@ -11,7 +11,7 @@ async function checkFormStatus() {
         }
     } catch (error) {
         console.error("Error checking form status:", error);
-        document.getElementById('commission-status').textContent = 'unable to determine commission status';
+        document.getElementById('commission-status').textContent = 'unable to determine forms status';
     }
 }
 
