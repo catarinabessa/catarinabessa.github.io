@@ -1,20 +1,35 @@
-async function checkFormStatus() {
-    try {
-        const response = await fetch('http://localhost:3000/check-form-status');
-        const data = await response.json();
+const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLScJ90IWf4vAImuPQhIBu35K3_3otwpHyJaRMenO5RfhwalPug/viewform';  // Replace with your Google Form URL
+const formResponseUrl = formUrl.replace('viewform', 'formResponse');  // Response URL
 
-        if (data.isOpen) {
-            document.getElementById('commission-status').innerHTML =
-                '<a href="https://docs.google.com/forms/d/e/1FAIpQLScJ90IWf4vAImuPQhIBu35K3_3otwpHyJaRMenO5RfhwalPug/viewform" target="_blank">my commissions are open</a>';
-        } else {
-            document.getElementById('commission-status').textContent = 'my commissions are closed';
+// Function to check if the form is accepting responses
+async function isFormOpen() {
+    try {
+        const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+        const formResponseUrl = 'https://docs.google.com/forms/d/e/1FAIpQLScJ90IWf4vAImuPQhIBu35K3_3otwpHyJaRMenO5RfhwalPug/formResponse';  // Your form's response URL
+        const response = await fetch(proxyUrl + formResponseUrl);  // Use the CORS proxy
+        const html = await response.text();  // Use .text() instead of .data
+        console.log(html);
+        if (html.includes("my commissions are closed right now!")) {
+            return false;  // Form is closed
         }
+        return true;  // Form is open
     } catch (error) {
-        console.error("Error checking form status:", error);
-        document.getElementById('commission-status').textContent = 'unable to determine forms status';
+        console.error('Error fetching form response page:', error);
+        return false;  // In case of an error, assume the form is closed
     }
+}
+
+
+async function checkFormStatus() {
+        const response = await isFormOpen();
+
+        if (response) {
+            document.getElementById('commission-status').innerHTML =
+                '<a class="headline" href="https://docs.google.com/forms/d/e/1FAIpQLScJ90IWf4vAImuPQhIBu35K3_3otwpHyJaRMenO5RfhwalPug/viewform" target="_blank">my commissions are open</a>';
+        } else {
+            document.getElementById('commission-status').textContent = 'my commissions are closed :(';
+        }
 }
 
 checkFormStatus();
 
-setInterval(checkFormStatus, 60000);  // Check every 60 seconds
