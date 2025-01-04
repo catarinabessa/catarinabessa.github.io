@@ -11,7 +11,7 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden; /* Prevents scrolling on mobile devices */
+  overflow-x: hidden; /* Prevents scrolling on mobile devices */
 }
 
 @font-face {
