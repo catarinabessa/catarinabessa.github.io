@@ -12,18 +12,28 @@
     font-style: normal;
 }
 
-@media only screen and (orientation:portrait){
-  #wrapper {width:1024px}
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+  .container {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    height: 100vw;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
   }
-  
-  @media only screen and (orientation:landscape){
-  #wrapper {width:1024px}
-  }
+}
 
 body {
     margin: 0;
     padding: 0;
     overflow-y: auto;
+    width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav a {
