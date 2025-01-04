@@ -20,39 +20,28 @@ html, body {
   overflow: hidden; /* Prevent scrolling */
 }
 
-/* Horizontal layout wrapper */
-.landscape-container {
-  width: 100vw;
-  height: 100vh;
+/* Default horizontal layout */
+#landscape {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1e1e1e;
+  background: #222;
   color: white;
+  width: 100vw;
+  height: 100vh;
+  font-size: 2rem;
   position: relative;
 }
 
-/* Rotate content for portrait mode */
-.portrait-override {
-  transform: rotate(90deg); /* Rotate to landscape */
+/* Apply forced rotation in portrait mode */
+#landscape.portrait-mode {
+  transform: rotate(90deg); /* Rotate to mimic landscape */
   transform-origin: center;
-  width: 100vh;
-  height: 100vw;
+  width: 100vh; /* Adjust width for rotated layout */
+  height: 100vw; /* Adjust height for rotated layout */
   position: absolute;
   top: 0;
   left: 0;
-}
-
-/* Content inside the layout */
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #2196f3;
-  width: 100%;
-  height: 100%;
-  font-size: 2rem;
-  text-align: center;
 }
 
 nav a {
