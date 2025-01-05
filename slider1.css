@@ -14,6 +14,14 @@
   justify-content: space-evenly;
   width: 108.5rem;
   margin-left: -4rem;
+
+  @media (max-width: 1370px) {
+    height: 14rem;
+    margin-bottom: -1.5rem;
+      align-self: center;
+      max-width: 330px;
+      margin: 0 auto;
+  }
 }
 
 .slider::after {

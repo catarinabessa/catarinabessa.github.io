@@ -1,3 +1,7 @@
+:root {
+  --main-content-width: 1370px
+}
+
 @font-face {
     font-family: "Mochiy Pop One";
     src: url(fonts/MochiyPopOne-Regular.ttf) format('truetype');
@@ -16,6 +20,9 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 nav a {
@@ -24,6 +31,11 @@ nav a {
     font-size: 2.65rem;
     text-decoration: none;
     text-align: center;
+
+    @media (max-width: 1370px) {
+      font-size: 1.5rem;
+      margin: -1.25rem;
+    }
 }
 
 .headbar {
@@ -31,10 +43,14 @@ nav a {
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-evenly;
   align-items: center;
-  height:8.5rem;
+  min-height:8.5rem;
   background:#7A965F;
-  padding: 0 10rem;
-  gap: 20rem;
+  gap: 3rem;
+
+  @media (max-width: 1370px) {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
 }
 
 .sticky {
@@ -46,9 +62,11 @@ nav a {
 .chosen-button {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .chosen-button a {
+    display: inline-block;
     background-color: #B4D395;
     padding: 0 1rem;
     border: 0.5rem solid #FFFFFF;
@@ -58,6 +76,14 @@ nav a {
 
 .spacer {
   height: 6rem;
+}
+
+.spacer-mobile {
+  height: 6rem;
+
+  @media (min-width: 1370px) {
+    display: none;
+  }
 }
 
 .cat {
@@ -121,6 +147,7 @@ nav a {
     position: relative; 
     top: 1rem;
     animation: jump 2s ease-out infinite 0.7s;
+    
   }
 
   .cat-footer {

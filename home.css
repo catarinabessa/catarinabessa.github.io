@@ -3,6 +3,11 @@
     grid-template-columns: 1fr 1.3fr 1fr;
     padding: 0 5rem;
     align-items: center;
+
+    @media (max-width: 1370px) {
+        grid-template-columns: 1fr;
+        align-self: center;
+    }
 }
 
 .visual {
@@ -10,30 +15,51 @@
     flex-direction: column;
 }
 
-.text1, .text2 {
+.text1,
+.text2 {
     color: #372222;
-    font-family:"Mochiy Pop One";
+    font-family: "Mochiy Pop One";
     font-size: 1.4rem;
 }
 
 .text1 {
     text-align: left;
+
+    @media (max-width: 1370px) {
+        text-align: center;
+        font-size: 1rem;
+        max-width: 330px;
+    }
 }
 
 .text2 {
     text-align: right;
+
+    @media (max-width: 1370px) {
+        text-align: center;
+        font-size: 1rem;
+        max-width: 330px;
+    }
 }
 
 .headline {
     color: #D26C79;
-    font-family:"Chocolate Bar Demo Regular";
-    font-size: 13rem;
+    font-family: "Chocolate Bar Demo Regular";
+    font-size: 12.5rem;
     letter-spacing: -1.5rem;
+
+    @media (max-width: 1370px) {
+        font-size: 10rem;
+    }
 }
 
 .pfp {
-    width: 32rem;
-    padding-left: 5.25rem;
+    width: 29rem;
+    align-self: center;
+
+    @media (max-width: 1370px) {
+        width: 19rem;
+    }
 }
 
 .icons {
@@ -42,6 +68,10 @@
     height: 4rem;
     gap: 1rem;
     padding: 2rem;
+
+    @media (max-width: 1370px) {
+        height: 2.5rem;
+    }
 }
 
 .icon {

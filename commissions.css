@@ -4,8 +4,26 @@
     font-size: 5.6rem;
     text-align: center;
     text-decoration: none;
-    padding: 2.5rem 0;
-    
+    padding: 0.5rem 0;
+
+    @media (max-width: 1370px) {
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+.headline-waiting {
+    color: #f7d8dd;
+    font-family:"Chocolate Bar Demo Regular";
+    font-size: 5.6rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem 0;
+
+    @media (max-width: 1370px) {
+        font-size: 3rem;
+        text-align: center;
+    }
 }
 
 .text {
@@ -13,31 +31,43 @@
     font-family:"Mochiy Pop One";
     font-size: 1.4rem;
     text-align: center;
-    padding: 4rem 19rem;
+    max-width: var(--main-content-width);
+    align-self: center;
+    padding: 2.5rem 1rem;
+
+    @media (max-width: 1370px) {
+        font-size: 1rem;
+        max-width: 330px;
+    }
 }
 
 .container {
     align-items: center;
     display: flex;
     flex-direction: column;
+    max-width: var(--main-content-width);
     gap: 1rem;
 }
 
 .container3 {
     display: grid;
     grid-template-columns: 1fr 9fr 1fr;
-    padding: 0 18rem;
     align-items: center;
-  
+    justify-items: center;
+    max-width: var(--main-content-width);
+    align-self: center;
+    padding: 0 1rem;
+
+    @media (max-width: 1370px) {
+        grid-template-columns: 1fr;
+      }
 }
 
-.left {
+.strawberries {
     height: 6rem;
-    margin-left: 2.65rem;
     opacity: 0.85;
-}
 
-.right {
-    height:6rem;
-    opacity: 0.85;
+    @media (max-width: 1370px) {
+        height: 3.5rem;
+    }
 }

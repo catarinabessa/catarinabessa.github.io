@@ -2,11 +2,18 @@
     padding: 2rem 4rem;
     display: grid;
     align-items: center;
+    gap: 2rem;
 }
 
 .container3 {
     grid-template-columns: repeat(3, 1fr);
     align-items: start;
+    gap: 7rem;
+
+    @media (max-width: 1370px) {
+        grid-template-columns: 1fr;
+        align-self: center;
+    }
 }
 
 .container2 {
@@ -31,11 +38,21 @@
     margin: 0 auto;
     display: block;
     margin-top: 1rem;
+
+    @media (max-width: 1370px) {
+        height: 17rem;
+        border-radius: 1.75rem;
+    }
 }
 
 .border {
     border: 0.4rem solid #372222;
     border-radius: 2.5rem;
+
+    @media (max-width: 1370px) {
+        border: 0.2rem solid #372222;
+        border-radius: 1.75rem;
+    }
 }
 
 .headline {
@@ -58,6 +75,13 @@
     z-index: 2;
     margin-bottom: -7rem;
     line-height: 5rem;
+
+    @media (max-width: 1370px) {
+        font-size: 3rem;
+        text-align: center;
+        line-height: 2.5rem;
+        margin-bottom: -3rem;
+    }
 }
 
 h1 {
@@ -65,63 +89,113 @@ h1 {
     font-family: "Mochiy Pop One";
     font-size: 1.6rem;
     text-align: center;
+
+    @media (max-width: 1370px) {
+        font-size: 1.2rem;
+    }
 }
 
 .text {
     color: #372222;
     font-family: "Mochiy Pop One";
     font-size: 1.4rem;
-    padding-top: 2rem;
+    padding: 2rem;
+
+    @media (max-width: 1370px) {
+        font-size: 1rem;
+        padding: 1rem;
+    }
 }
 
 .text1 {
     text-align: left;
-    padding-right: 2rem;
+
+    @media (max-width: 1370px) {
+        text-align: center;
+        margin-bottom: -6rem;
+        max-width: 330px;
+        margin: -2rem auto -5.5rem auto;
+    }
 }
 
 .text2 {
     text-align: right;
-    padding-left: 2rem;
-}
 
-.text1 {
-    text-align: left;
-    padding-right: 2rem;
+    @media (max-width: 1370px) {
+        text-align: center;
+        margin: -2.5rem 0;
+        max-width: 330px;
+        margin: -2rem auto -5.5rem auto;
+    }
 }
 
 .text3 {
     text-align: center;
-    padding: 2rem;
+
+    @media (max-width: 1370px) {
+        text-align: center;
+        max-width: 330px;
+        margin: 0 auto;
+    }
 }
 
 .text4 {
     text-align: center;
     padding: 0 0.5rem;
+
+    @media (max-width: 1370px) {
+        text-align: center;
+        max-width: 330px;
+        margin: 0 auto;
+    }
 }
 
 .image {
     width: 35rem;
     padding-top: 1.5rem;
+
+    @media (max-width: 1370px) {
+        width: 17rem;
+    }
 }
 
 .flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 1370px) {
+        align-self: center;
+        max-width: 330px;
+        margin: 0 auto;
+    }
 }
 
 .cute1 {
     text-align: left;
     padding-left: 2rem;
+
+    @media (max-width: 1370px) {
+        padding-left: 0.75rem;
+    }
 }
 
 .cute2 {
     text-align: right;
     padding-right: 2rem;
+
+    @media (max-width: 1370px) {
+        padding-right: 0.75rem;
+    }
 }
 
 .references {
     width: 45rem;
+
+    @media (max-width: 1370px) {
+        width: auto;
+        max-width: 330px;
+    }
 }
 
 .another_container .container_cs .flowchart {
@@ -135,30 +209,59 @@ h1 {
 .flowchart {
     width: 100rem;
     padding-top: 2rem;
+
+    @media (max-width: 1370px) {
+        width: 17rem;
+    }
 }
 
 .showcase {
     height: 20rem;
     width: auto;
     object-fit: cover;
+
+    @media (max-width: 1370px) {
+        height: 9rem;
+        width: auto;
+        object-fit: cover;
+    }
 }
 
 .me1 {
     width: 28rem;
     padding-right: 16rem;
+
+    @media (max-width: 1370px) {
+        width: 17rem;
+        padding-right: 5rem;
+    }
 }
 
 .me2 {
     width: 25rem;
     padding-left: 16rem;
     transform: rotate(4.2deg);
+
+    @media (max-width: 1370px) {
+        width: 15rem;
+        padding-left: 5rem;
+    }
 }
 
 .other-images {
     width: 70rem;
+
+    @media (max-width: 1370px) {
+        width: auto;
+        max-width: 330px;
+    }
 }
 
 .crop {
     width: 100%;
     object-fit: cover;
+
+    @media (max-width: 1370px) {
+        width: 20.5rem;
+    }
 }

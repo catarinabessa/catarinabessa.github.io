@@ -3,7 +3,12 @@
     font-family: "Chocolate Bar Demo Regular";
     font-size: 5.6rem;
     text-align: left;
-    padding: 2rem 0rem 2rem 6rem;
+    padding: 2rem 0rem 2rem 5rem;
+
+    @media (max-width: 1370px) {
+        font-size: 3rem;
+        padding: 1rem 0rem 0rem 1.5rem;
+    }
 }
 
 .artwork {
@@ -11,6 +16,10 @@
     width: auto;
     object-fit: cover;
     margin: 0.5rem;
+
+    @media (max-width: 1370px) {
+        height: 13rem;
+    }
 }
 
 .animation {
@@ -19,6 +28,10 @@
     object-fit: cover;
     margin: 0.5rem;
     border-radius: 2.5rem;
+
+    @media (max-width: 1370px) {
+        height: 11rem;
+    }
 }
 
 .gif1 {
@@ -27,6 +40,11 @@
     object-fit: cover;
     margin: 0.5rem;
     border-radius: 2.5rem;
+
+    @media (max-width: 1370px) {
+        height: 11rem;
+        width: 13rem;
+    }
 }
 
 .gif2 {
@@ -36,6 +54,11 @@
     margin: 0.5rem;
     border: 0.4rem solid #372222;
     border-radius: 2.5rem;
+
+    @media (max-width: 1370px) {
+        height: 10.5rem;
+        border: 0.25rem solid #372222;
+    }
 }
 
 .border {

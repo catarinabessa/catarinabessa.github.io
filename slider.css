@@ -14,6 +14,11 @@
   justify-content: space-evenly;
   width: 104rem;
   padding: 0 6.5rem;
+
+  @media (max-width: 1370px) {
+    height: 14rem;
+    margin-bottom: -1.5rem;
+}
 }
 
 .slider::after {
@@ -21,15 +26,18 @@
   top: 0;
   transform: rotateZ(180deg);
 }
+
 .slider::before {
   left: 0;
   top: 0;
 }
+
 .slider .slide-track {
   animation: scroll 60s linear infinite;
   display: flex;
   width: calc(10rem * 7);
 }
+
 .slider .slide {
   height: 6rem;
   width: 60rem;
