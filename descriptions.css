@@ -8,7 +8,7 @@
 .container3 {
     grid-template-columns: repeat(3, 1fr);
     align-items: start;
-    gap: 7rem;
+    gap: 2.5rem;
 
     @media (max-width: 1370px) {
         grid-template-columns: 1fr;
@@ -114,6 +114,7 @@ h1 {
         text-align: center;
         margin-bottom: -6rem;
         max-width: 330px;
+        padding-bottom: 3rem;
         margin: -2rem auto -5.5rem auto;
     }
 }
@@ -125,6 +126,7 @@ h1 {
         text-align: center;
         margin: -2.5rem 0;
         max-width: 330px;
+        padding-top: 3rem;
         margin: -2rem auto -5.5rem auto;
     }
 }
