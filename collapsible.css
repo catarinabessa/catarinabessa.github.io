@@ -1,27 +1,39 @@
 .collapsible {
-    background-color: #f8e9eb;
-    cursor: pointer;
-    padding: 1rem;
-    width: 100%;
-    border-radius: 2.5rem;
-    border: none;
-    outline: none;
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .collapsible:hover {
-    background-color: #D26C79;
-  }
-  
-  /* Style the collapsible content. Note: hidden by default */
-  .content {
-    display: none;
-    overflow: hidden;
-    background-color: #fceff1d2;
-    border-radius: 2.5rem;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.7s ease-out;
-  }
-  
-  /*https://www.w3schools.com/howto/howto_js_collapsible.asp*/
+  background-color: #f8e9eb;
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 2.5rem;
+  border: none;
+  outline: none;
+  text-align: center;
+
+  @media (max-width: 1370px) {
+    align-self: center;
+    max-width: 330px;
+    text-align: center;  }
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: #D26C79;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  display: none;
+  overflow: hidden;
+  background-color: #fceff1d2;
+  border-radius: 2.5rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.7s ease-out;
+
+  @media (max-width: 1370px) {
+    width: auto;
+    max-width: 330px;
+}
+}
+
+/*https://www.w3schools.com/howto/howto_js_collapsible.asp*/
