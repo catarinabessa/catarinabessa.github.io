@@ -4,7 +4,6 @@
     font-size: 5.6rem;
     text-align: center;
     text-decoration: none;
-    padding: 0.5rem 0;
 
     @media (max-width: 1024px) {
         font-size: 3rem;

@@ -3,21 +3,23 @@
 }
 
 @font-face {
-    font-family: "Mochiy Pop One";
-    src: url(fonts/MochiyPopOne-Regular.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Mochiy Pop One";
+  src: url(fonts/MochiyPopOne-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Chocolate Bar Demo Regular";
-    src: url(fonts/chocolate-bar-demo.regular.otf) format('opentype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Chocolate Bar Demo Regular";
+  src: url(fonts/chocolate-bar-demo.regular.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Use a more-intuitive box-sizing model */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -26,27 +28,27 @@
   margin: 0;
 }
 
-html{
+html {
   overflow-x: hidden;
 }
 
 body {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 nav a {
-    color: #FFFFFF;
-    font-family: "Mochiy Pop One";
-    font-size: 2.65rem;
-    text-decoration: none;
-    text-align: center;
+  color: #FFFFFF;
+  font-family: "Mochiy Pop One";
+  font-size: 2.65rem;
+  text-decoration: none;
+  text-align: center;
 
-    @media (max-width: 1024px) {
-      font-size: 1.5rem;
-    }
+  @media (max-width: 1024px) {
+    font-size: 1.5rem;
+  }
 }
 
 .headbar {
@@ -54,8 +56,8 @@ nav a {
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-evenly;
   align-items: center;
-  min-height:8.5rem;
-  background:#7A965F;
+  min-height: 8rem;
+  background: #7A965F;
   gap: 3rem;
   padding-inline: 5rem;
 
@@ -65,28 +67,42 @@ nav a {
     gap: 1rem;
   }
 
-  
+  & *:first-child {
+    justify-self: start;
+
+    @media (max-width: 1024px) {
+      justify-self: auto;
+    }
+  }
+
+  & *:last-child {
+    justify-self: end;
+
+    @media (max-width: 1024px) {
+      justify-self: auto;
+    }
+  }
 }
 
 .sticky {
   position: sticky;
-  top:0;
+  top: 0;
   z-index: 1000;
 }
 
 .chosen-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .chosen-button a {
-    display: inline-block;
-    background-color: #B4D395;
-    padding: 0 1rem;
-    border: 0.5rem solid #FFFFFF;
-    border-radius: 2.5rem;
-    margin-top: -0.5rem;
+  display: inline-block;
+  background-color: #B4D395;
+  padding: 0 1rem;
+  border: 0.5rem solid #FFFFFF;
+  border-radius: 2.5rem;
+  margin-top: -0.5rem;
 }
 
 .spacer {
@@ -106,95 +122,176 @@ nav a {
   height: auto;
   width: auto;
   object-fit: contain;
+
+  @media (max-width: 1024px) {
+    max-height: 3.785rem;
+  }
 }
 
 .cat1 {
-    margin: 0 -1.7rem;
-    animation: jump 2s ease-out infinite 0.2s;
+  margin: 0 -1.7rem;
+  animation: jump 2s ease-out infinite 0.2s;
+
+  @media (max-width: 1024px) {
+    margin: 0 -0.85rem;
+    animation: jump-small 2s ease-out infinite 0.2s;
   }
-  
+}
+
 .cat2 {
-    margin: 0 0.2rem;
-    position: relative;
-    top: 1.7rem;
-    animation: jump 2s ease-out infinite 0.6s;
+  margin: 0 0.2rem;
+  position: relative;
+  top: 1.7rem;
+  animation: jump 2s ease-out infinite 0.6s;
+
+  @media (max-width: 1024px) {
+    margin: 0 0.1rem;
+    top: 0.85rem;
+    animation: jump-small 2s ease-out infinite 0.6s;
+
   }
+}
 
 .cat3 {
-    margin: 0 -2.6rem;
-    position: relative; 
-    top: 1.5rem;
-    animation: jump 2s ease-out infinite 0.4s;
+  margin: 0 -2.6rem;
+  position: relative;
+  top: 1.5rem;
+  animation: jump 2s ease-out infinite 0.4s;
+
+  @media (max-width: 1024px) {
+    margin: 0 -1.3rem;
+    top: 0.75rem;
+    animation: jump-small 2s ease-out infinite 0.4s;
   }
+}
 
 .cat4 {
-    margin: 0 0.4rem;
-    position: relative; 
-    top: 2rem;
-    animation: jump 2s ease-out infinite 0s;
+  margin: 0 0.4rem;
+  position: relative;
+  top: 2rem;
+  animation: jump 2s ease-out infinite 0s;
+
+  @media (max-width: 1024px) {
+    margin: 0 0.2rem;
+    top: 1rem;
+    animation: jump-small 2s ease-out infinite 0s;
   }
+}
 
 .cat5 {
-    margin: 0 -3.2rem;
-    position: relative; 
-    top: 2.4rem;
-    animation: jump 2s ease-out infinite 0.3s;
+  margin: 0 -3.2rem;
+  position: relative;
+  top: 2.4rem;
+  animation: jump 2s ease-out infinite 0.3s;
+
+  @media (max-width: 1024px) {
+    margin: 0 -1.6rem;
+    top: 1.2rem;
+    animation: jump-small 2s ease-out infinite 0.3s;
   }
+}
 
 .cat6 {
-    margin: 0 2.3rem;
-    margin-bottom: 1rem;
-    position: relative; 
-    top: 1.2rem;
-    animation: jump 2s ease-out infinite 0.5s;
+  margin: 0 2.3rem;
+  margin-bottom: 1rem;
+  position: relative;
+  top: 1.2rem;
+  animation: jump 2s ease-out infinite 0.5s;
+
+  @media (max-width: 1024px) {
+    margin: 0 1.15rem;
+    margin-bottom: 0.5rem;
+    top: 0.6rem;
+    animation: jump-small 2s ease-out infinite 0.5s;
   }
+}
 
 .cat7 {
-    margin: 0 -3.2rem;
-    position: relative; 
-    top: 1rem;
-    animation: jump 2s ease-out infinite 0.1s;
+  margin: 0 -3.2rem;
+  position: relative;
+  top: 1rem;
+  animation: jump 2s ease-out infinite 0.1s;
+
+  @media (max-width: 1024px) {
+    margin: 0 -1.6rem;
+    top: 0.5rem;
+    animation: jump-small 2s ease-out infinite 0.1s;
   }
+}
 
 .cat8 {
-    margin: 0 1.5rem;
-    animation-delay: 1.4s;
-    position: relative; 
-    top: 1rem;
-    animation: jump 2s ease-out infinite 0.7s;
-    
+  margin: 0 1.5rem;
+  position: relative;
+  top: 1rem;
+  animation: jump 2s ease-out infinite 0.7s;
+
+  @media (max-width: 1024px) {
+    margin: 0 0.75rem;
+    top: 0.5rem;
+    animation: jump-small 2s ease-out infinite 0.7s;
   }
 
-  .cat-footer {
-    position: fixed;
-    bottom: -3.4rem;
-    left:0;
-    width: 100%;
-    background: linear-gradient(to top, rgb(255, 255, 255) 55%, rgba(255, 255, 255, 0) 100%);
-    z-index: 100;
-    display: flex;
-    justify-content: center;
-    padding: 0.8rem 0;
-    overflow: hidden;
-    padding-left: 1.8rem;
 }
-  
-  .cats {
-    display: flex;
+
+.cat-footer {
+  position: fixed;
+  bottom: -3.4rem;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to top, rgb(255, 255, 255) 55%, rgba(255, 255, 255, 0) 100%);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem 0;
+  overflow: hidden;
+  padding-left: 1.8rem;
+
+  @media (max-width: 1024px) {
+    bottom: -1.7rem;
+    padding: 0.4rem 0;
+    padding-left: 0.9rem;
   }
-  
+}
+
+.cats {
+  display: flex;
+}
+
 
 @keyframes jump {
-    0% {
-        transform: translateY(0);
-    }
-    25% {
-        transform: translateY(-2rem);
-    }
-    50% {
-      transform: translateY(0);
+  0% {
+    transform: translateY(0);
   }
-    100% {
-      transform: translateY(0);
+
+  25% {
+    transform: translateY(-2rem);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(0);
+    
+  }
 }
+
+@keyframes jump-small {
+  0% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(-1rem);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(0);
+    
+  }
 }
