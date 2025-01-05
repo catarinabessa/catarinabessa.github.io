@@ -5,7 +5,7 @@
     text-align: left;
     padding: 2rem 0rem 2rem 5rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         font-size: 3rem;
         padding: 1rem 0rem 0rem 1.5rem;
     }
@@ -17,7 +17,7 @@
     object-fit: cover;
     margin: 0.5rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         height: 13rem;
     }
 }
@@ -29,7 +29,7 @@
     margin: 0.5rem;
     border-radius: 2.5rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         height: 11rem;
     }
 }
@@ -41,7 +41,7 @@
     margin: 0.5rem;
     border-radius: 2.5rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         height: 11rem;
         width: 13rem;
     }
@@ -55,7 +55,7 @@
     border: 0.4rem solid #372222;
     border-radius: 2.5rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         height: 10.5rem;
         border: 0.25rem solid #372222;
     }

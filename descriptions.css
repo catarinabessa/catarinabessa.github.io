@@ -4,7 +4,7 @@
     align-items: center;
     gap: 2rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         align-self: center;
         align-items: center;
         justify-content: center;
@@ -17,7 +17,7 @@
     align-items: start;
     gap: 2.5rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         grid-template-columns: 1fr;
         align-self: center;
     }
@@ -50,7 +50,7 @@
     display: block;
     margin-top: 1rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         height: 17rem;
         border-radius: 1.75rem;
     }
@@ -60,7 +60,7 @@
     border: 0.4rem solid #372222;
     border-radius: 2.5rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         border: 0.2rem solid #372222;
         border-radius: 1.75rem;
     }
@@ -87,7 +87,7 @@
     margin-bottom: -7rem;
     line-height: 5rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         font-size: 3rem;
         text-align: center;
         line-height: 2.5rem;
@@ -101,7 +101,7 @@ h1 {
     font-size: 1.6rem;
     text-align: center;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         font-size: 1.2rem;
     }
 }
@@ -112,7 +112,7 @@ h1 {
     font-size: 1.4rem;
     padding: 2rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         font-size: 1rem;
         padding: 1rem;
     }
@@ -121,7 +121,7 @@ h1 {
 .text1 {
     text-align: left;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         text-align: center;
         margin-bottom: -6rem;
         max-width: 330px;
@@ -133,7 +133,7 @@ h1 {
 .text2 {
     text-align: right;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         text-align: center;
         margin: -2.5rem 0;
         max-width: 330px;
@@ -145,7 +145,7 @@ h1 {
 .text3 {
     text-align: center;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         text-align: center;
         max-width: 330px;
         margin: 0 auto;
@@ -157,7 +157,7 @@ h1 {
     text-align: center;
     padding: 0 0.5rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         text-align: center;
         max-width: 330px;
         margin: 0 auto;
@@ -169,7 +169,7 @@ h1 {
     width: 35rem;
     padding-top: 1.5rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         width: 17rem;
     }
 }
@@ -178,8 +178,9 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         align-self: center;
         align-items: center;
         justify-content: center;
@@ -195,7 +196,7 @@ h1 {
     text-align: left;
     padding-left: 2rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         display: none;
     }
 }
@@ -207,7 +208,7 @@ h1 {
     text-align: right;
     padding-right: 2rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         display: none;
     }
 }
@@ -215,7 +216,7 @@ h1 {
 .references {
     width: 45rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         width: auto;
         max-width: 9rem;
         
@@ -234,7 +235,7 @@ h1 {
     width: 100rem;
     padding-top: 2rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         width: 17rem;
     }
 }
@@ -244,7 +245,7 @@ h1 {
     width: auto;
     object-fit: cover;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         height: 9rem;
         width: auto;
         object-fit: cover;
@@ -255,7 +256,7 @@ h1 {
     width: 28rem;
     padding-right: 16rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         width: 13rem;
         padding-right: 5rem;
     }
@@ -266,7 +267,7 @@ h1 {
     padding-left: 16rem;
     transform: rotate(4.2deg);
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         width: 11rem;
         padding-left: 5rem;
     }
@@ -275,7 +276,7 @@ h1 {
 .other-images {
     width: 70rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         width: 16rem;
     }
 }
@@ -284,7 +285,7 @@ h1 {
     width: 100%;
     object-fit: cover;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         width: 20.5rem;
     }
 }

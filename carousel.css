@@ -4,7 +4,7 @@
    max-width: 100%;
    text-align: center;
 
-   @media (max-width: 1370px) {
+   @media (max-width: 1024px) {
       justify-content: center;
       max-width: 300px;
   }
@@ -88,7 +88,7 @@
    margin: -27.5rem -3rem auto auto;
    display: block;
 
-   @media (max-width: 1370px) {
+   @media (max-width: 1024px) {
       margin: -61rem 0.75rem 0 0;
   }
 }
@@ -103,7 +103,7 @@
    margin: -27.5rem auto auto -3rem;
    display: block;
 
-   @media (max-width: 1370px) {
+   @media (max-width: 1024px) {
       margin: -61rem 0 0 0;
   }
 }
@@ -113,7 +113,7 @@
    margin: 3rem 0 3rem 0;
    text-align: center;
 
-   @media (max-width: 1370px) {
+   @media (max-width: 1024px) {
       padding-top: 8rem;
       padding-bottom: 1rem;
       margin: 0;

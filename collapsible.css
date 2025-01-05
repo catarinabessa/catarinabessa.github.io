@@ -8,7 +8,7 @@
   outline: none;
   text-align: center;
 
-  @media (max-width: 1370px) {
+  @media (max-width: 1024px) {
     align-self: center;
     max-width: 330px;
     text-align: center;  }
@@ -30,7 +30,7 @@
   overflow: hidden;
   transition: max-height 0.7s ease-out;
 
-  @media (max-width: 1370px) {
+  @media (max-width: 1024px) {
     width: auto;
     max-width: 330px;
 }

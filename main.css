@@ -1,5 +1,5 @@
 :root {
-  --main-content-width: 1370px
+  --main-content-width: 1024px
 }
 
 @font-face {
@@ -16,12 +16,21 @@
     font-style: normal;
 }
 
+/* Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+}
+
 html{
   overflow-x: hidden;
 }
 
 body {
-    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -35,9 +44,8 @@ nav a {
     text-decoration: none;
     text-align: center;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
       font-size: 1.5rem;
-      margin: -1.25rem;
     }
 }
 
@@ -49,11 +57,15 @@ nav a {
   min-height:8.5rem;
   background:#7A965F;
   gap: 3rem;
+  padding-inline: 5rem;
 
-  @media (max-width: 1370px) {
+  @media (max-width: 1024px) {
     grid-template-columns: 1fr;
     padding: 2rem;
+    gap: 1rem;
   }
+
+  
 }
 
 .sticky {
@@ -84,7 +96,7 @@ nav a {
 .spacer-mobile {
   height: 6rem;
 
-  @media (min-width: 1370px) {
+  @media (min-width: 1024px) {
     display: none;
   }
 }

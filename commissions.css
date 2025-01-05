@@ -6,7 +6,7 @@
     text-decoration: none;
     padding: 0.5rem 0;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         font-size: 3rem;
         text-align: center;
     }
@@ -20,7 +20,7 @@
     text-decoration: none;
     padding: 0.5rem 0;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         font-size: 3rem;
         text-align: center;
     }
@@ -35,7 +35,7 @@
     align-self: center;
     padding: 2.5rem 1rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         font-size: 1rem;
         max-width: 330px;
     }
@@ -58,7 +58,7 @@
     align-self: center;
     padding: 0 1rem;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         grid-template-columns: 1fr;
       }
 }
@@ -67,7 +67,7 @@
     height: 6rem;
     opacity: 0.85;
 
-    @media (max-width: 1370px) {
+    @media (max-width: 1024px) {
         height: 3.5rem;
     }
 }

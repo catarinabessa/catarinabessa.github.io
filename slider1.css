@@ -17,7 +17,7 @@
   width: 108.5rem;
   margin-left: -4rem;
 
-  @media (max-width: 1370px) {
+  @media (max-width: 1024px) {
     height: 14rem;
     margin-bottom: -1.5rem;
     align-self: center;
