@@ -23,10 +23,6 @@
     }
 }
 
-.container3 .fix {
-    margin-left: -5rem;
-}
-
 .container2 {
     grid-template-columns: repeat(2, 1fr);
     align-items: start;
