@@ -110,7 +110,7 @@ nav a {
 }
 
 .spacer-mobile {
-  height: 6rem;
+  height: 1.5rem;
 
   @media (min-width: 1024px) {
     display: none;
