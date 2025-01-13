@@ -285,7 +285,7 @@ h1 {
 }
 
 .me1 {
-    width: 28rem;
+    width: 42rem;
     padding-right: 16rem;
 
     @media (max-width: 1024px) {
@@ -295,7 +295,7 @@ h1 {
 }
 
 .me2 {
-    width: 25rem;
+    width: 39rem;
     padding-left: 16rem;
     transform: rotate(4.2deg);
 
