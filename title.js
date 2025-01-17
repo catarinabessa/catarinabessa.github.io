@@ -4,7 +4,7 @@
 
         function setRadius() {
             if (window.innerWidth <= 1024) {
-                circleType.radius(275).forceWidth();
+                circleType.radius(325).forceWidth();
             } else {
                 circleType.radius(475).forceWidth();
             }
