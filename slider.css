@@ -35,7 +35,7 @@
 .slider .slide-track {
   animation: scroll 60s linear infinite;
   display: flex;
-  width: calc(15rem * 7);
+  width: calc(13rem * 7);
 
   @media (max-width: 1024px) {
     width: calc(8rem * 7);
