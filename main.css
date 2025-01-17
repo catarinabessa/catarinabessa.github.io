@@ -3,7 +3,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 2rem;
+  width: 30px;
 }
 
 ::-webkit-scrollbar-thumb {
