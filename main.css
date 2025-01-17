@@ -103,7 +103,7 @@ nav a {
   align-items: center;
   background:#372222;;
   padding-inline: 1.5rem;
-  min-height: 6rem;
+  min-height: 4rem;
   width: 100%;
 
   @media (min-width: 1024px) {
@@ -120,7 +120,7 @@ nav a {
 }
 
 .buttons-mobile {
-  height: 2.5rem;
+  height: 2rem;
   margin-bottom: 0.1rem;
 
   @media (min-width: 1024px) {
