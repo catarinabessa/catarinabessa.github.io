@@ -1,5 +1,5 @@
 .collapsible {
-  background-color: #f8e9eb;
+  background-color: #d26c7ab0;
   cursor: pointer;
   padding: 1rem;
   width: 100%;
@@ -24,7 +24,7 @@
 .content {
   display: none;
   overflow: hidden;
-  background-color: #fceff1d2;
+  background-color: rgba(176, 92, 102, 0.13);
   border-radius: 2.5rem;
   max-height: 0;
   overflow: hidden;

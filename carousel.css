@@ -85,11 +85,12 @@
    background-size: 2rem 2rem; 
    background-position: center; 
    float: right;
-   margin: -27.5rem -3rem auto auto;
+   margin: -22.5rem -3rem auto auto;
    display: block;
 
    @media (max-width: 1024px) {
-      margin: -61rem 0.75rem 0 0;
+      margin: -40rem -0.5rem 0 0;
+      height: 1.5rem;
   }
 }
 #slide1:checked ~ #controls label:nth-last-child(1),
@@ -100,11 +101,12 @@
    background-size: 2rem 2rem; 
    background-position: center; 
    float: left;
-   margin: -27.5rem auto auto -3rem;
+   margin: -22.5rem auto auto -3rem;
    display: block;
 
    @media (max-width: 1024px) {
-      margin: -61rem 0 0 0;
+      margin: -40rem 0 0 -0.5rem;
+      height: 1.5rem;
   }
 }
 

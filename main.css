@@ -3,13 +3,6 @@
 }
 
 @font-face {
-  font-family: "Mochiy Pop One";
-  src: url(fonts/MochiyPopOne-Regular.ttf) format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Chocolate Bar Demo Regular";
   src: url(fonts/chocolate-bar-demo.regular.otf) format('opentype');
   font-weight: normal;
@@ -41,14 +34,11 @@ body {
 
 nav a {
   color: #FFFFFF;
-  font-family: "Mochiy Pop One";
-  font-size: 2.65rem;
+  font-family: "Comic Sans MS";
+  font-size: 2.5rem;
   text-decoration: none;
   text-align: center;
-
-  @media (max-width: 1024px) {
-    font-size: 1.5rem;
-  }
+  font-weight: bolder;
 }
 
 .headbar {
@@ -56,15 +46,13 @@ nav a {
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-evenly;
   align-items: center;
-  min-height: 8rem;
-  background: #7A965F;
+  min-height: 6.5rem;
+  background:#372222;;
   gap: 3rem;
   padding-inline: 5rem;
 
   @media (max-width: 1024px) {
-    grid-template-columns: 1fr;
-    padding: 2rem;
-    gap: 1rem;
+    display: none;
   }
 
   & *:first-child {
@@ -90,23 +78,67 @@ nav a {
   z-index: 1000;
 }
 
+.headbar-mobile {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+  align-items: center;
+  background:#372222;;
+  padding-inline: 5rem;
+  gap: 1rem;
+  min-height: 4rem;
+
+  @media (min-width: 1024px) {
+    display: none;
+  }
+
+  & *:first-child {
+    justify-self: start;
+
+    @media (min-width: 1024px) {
+      justify-self: auto;
+    }
+  }
+
+  & *:last-child {
+    justify-self: end;
+
+    @media (min-width: 1024px) {
+      justify-self: auto;
+    }
+  }
+}
+
+.buttons-mobile {
+  height: 1.85rem;
+
+  @media (min-width: 1024px) {
+    display: none;
+}
+}
+
 .chosen-button {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 1024px) {
+    display: none;
+}
 }
 
 .chosen-button a {
   display: inline-block;
-  background-color: #B4D395;
+  background-color: #d26c7a88;
   padding: 0 1rem;
-  border: 0.5rem solid #FFFFFF;
+  border: 0.5rem solid #d26c7a88;
   border-radius: 2.5rem;
   margin-top: -0.5rem;
+  
 }
 
 .spacer {
-  height: 6rem;
+  height: 3rem;
 }
 
 .spacer-mobile {
@@ -118,7 +150,7 @@ nav a {
 }
 
 .cat {
-  max-height: 7.57rem;
+  max-height: 5.678rem;
   height: auto;
   width: auto;
   object-fit: contain;
@@ -129,7 +161,7 @@ nav a {
 }
 
 .cat1 {
-  margin: 0 -1.7rem;
+  margin: 0 -1.275rem;
   animation: jump 2s ease-out infinite 0.2s;
 
   @media (max-width: 1024px) {
@@ -139,23 +171,22 @@ nav a {
 }
 
 .cat2 {
-  margin: 0 0.2rem;
+  margin: 0 0.15rem;
   position: relative;
-  top: 1.7rem;
+  top: 1.275rem;
   animation: jump 2s ease-out infinite 0.6s;
 
   @media (max-width: 1024px) {
     margin: 0 0.1rem;
     top: 0.85rem;
     animation: jump-small 2s ease-out infinite 0.6s;
-
   }
 }
 
 .cat3 {
-  margin: 0 -2.6rem;
+  margin: 0 -1.95rem;
   position: relative;
-  top: 1.5rem;
+  top: 1.125rem;
   animation: jump 2s ease-out infinite 0.4s;
 
   @media (max-width: 1024px) {
@@ -166,9 +197,9 @@ nav a {
 }
 
 .cat4 {
-  margin: 0 0.4rem;
+  margin: 0 0.3rem;
   position: relative;
-  top: 2rem;
+  top: 1.5rem;
   animation: jump 2s ease-out infinite 0s;
 
   @media (max-width: 1024px) {
@@ -179,9 +210,9 @@ nav a {
 }
 
 .cat5 {
-  margin: 0 -3.2rem;
+  margin: 0 -2.4rem;
   position: relative;
-  top: 2.4rem;
+  top: 1.8rem;
   animation: jump 2s ease-out infinite 0.3s;
 
   @media (max-width: 1024px) {
@@ -192,10 +223,10 @@ nav a {
 }
 
 .cat6 {
-  margin: 0 2.3rem;
-  margin-bottom: 1rem;
+  margin: 0 1.725rem;
+  margin-bottom: 0.75rem;
   position: relative;
-  top: 1.2rem;
+  top: 0.9rem;
   animation: jump 2s ease-out infinite 0.5s;
 
   @media (max-width: 1024px) {
@@ -207,9 +238,9 @@ nav a {
 }
 
 .cat7 {
-  margin: 0 -3.2rem;
+  margin: 0 -2.4rem;
   position: relative;
-  top: 1rem;
+  top: 0.75rem;
   animation: jump 2s ease-out infinite 0.1s;
 
   @media (max-width: 1024px) {
@@ -220,9 +251,9 @@ nav a {
 }
 
 .cat8 {
-  margin: 0 1.5rem;
+  margin: 0 1.125rem;
   position: relative;
-  top: 1rem;
+  top: 0.75rem;
   animation: jump 2s ease-out infinite 0.7s;
 
   @media (max-width: 1024px) {
@@ -230,21 +261,20 @@ nav a {
     top: 0.5rem;
     animation: jump-small 2s ease-out infinite 0.7s;
   }
-
 }
 
 .cat-footer {
   position: fixed;
-  bottom: -3.4rem;
+  bottom: -2.55rem;
   left: 0;
   width: 100%;
   background: linear-gradient(to top, rgb(255, 255, 255) 55%, rgba(255, 255, 255, 0) 100%);
   z-index: 100;
   display: flex;
   justify-content: center;
-  padding: 0.8rem 0;
+  padding: 0.6rem 0;
   overflow: hidden;
-  padding-left: 1.8rem;
+  padding-left: 1.75rem;
 
   @media (max-width: 1024px) {
     bottom: -1.7rem;
@@ -264,7 +294,7 @@ nav a {
   }
 
   25% {
-    transform: translateY(-2rem);
+    transform: translateY(-1.25rem);
   }
 
   50% {

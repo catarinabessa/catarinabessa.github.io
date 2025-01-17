@@ -6,13 +6,13 @@
     text-decoration: none;
 
     @media (max-width: 1024px) {
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-align: center;
     }
 }
 
 .headline-waiting {
-    color: #f7d8dd;
+    color: rgba(176, 92, 102, 0.13);
     font-family:"Chocolate Bar Demo Regular";
     font-size: 5.6rem;
     text-align: center;
@@ -27,12 +27,13 @@
 
 .text {
     color: #372222;
-    font-family:"Mochiy Pop One";
-    font-size: 1.4rem;
+    font-family:"Comic Sans MS";
+    font-size: 1.5rem;
     text-align: center;
     max-width: var(--main-content-width);
     align-self: center;
     padding: 2.5rem 1rem;
+    font-weight: bold;
 
     @media (max-width: 1024px) {
         font-size: 1rem;

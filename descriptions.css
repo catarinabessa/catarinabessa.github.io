@@ -1,5 +1,5 @@
 .container {
-    padding: 2rem 4rem;
+    padding: 1rem 4rem;
     display: grid;
     align-items: center;
     gap: 2rem;
@@ -39,7 +39,7 @@
 .main-image {
     grid-row: 1 / 2;
     grid-column: 1;
-    height: 32rem;
+    height: 30rem;
     width: auto;
     z-index: 1;
     border-radius: 2.5rem;
@@ -85,17 +85,18 @@
     line-height: 5rem;
 
     @media (max-width: 1024px) {
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-align: center;
         line-height: 2.5rem;
-        margin-bottom: -3rem;
+        margin-bottom: -3.5rem;
     }
 }
 
 h1 {
     color: #372222;
-    font-family: "Mochiy Pop One";
-    font-size: 1.6rem;
+    font-family: "Comic Sans MS";
+    font-size: 1.75rem;
+    font-weight: bold;
     text-align: center;
 
     @media (max-width: 1024px) {
@@ -105,8 +106,8 @@ h1 {
 
 .text {
     color: #372222;
-    font-family: "Mochiy Pop One";
-    font-size: 1.4rem;
+    font-family: "Comic Sans MS";
+    font-size: 1.5rem;
     padding: 2rem;
 
     @media (max-width: 1024px) {
@@ -194,15 +195,6 @@ h1 {
     }
 }
 
-.image {
-    width: 35rem;
-    padding-top: 1.5rem;
-
-    @media (max-width: 1024px) {
-        width: 17rem;
-    }
-}
-
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -222,10 +214,11 @@ h1 {
 
 .cute1 {
     color: #372222;
-    font-family: "Mochiy Pop One";
-    font-size: 1.6rem;
+    font-family: "Comic Sans MS";
+    font-size: 1.74rem;
     text-align: left;
     padding-left: 2rem;
+    font-weight: bold;
 
     @media (max-width: 1024px) {
         display: none;
@@ -234,10 +227,11 @@ h1 {
 
 .cute2 {
     color: #372222;
-    font-family: "Mochiy Pop One";
-    font-size: 1.6rem;
+    font-family: "Comic Sans MS";
+    font-size: 1.75rem;
     text-align: right;
     padding-right: 2rem;
+    font-weight: bold;
 
     @media (max-width: 1024px) {
         display: none;
@@ -245,7 +239,7 @@ h1 {
 }
 
 .references {
-    width: 45rem;
+    width: 35rem;
 
     @media (max-width: 1024px) {
         width: auto;
