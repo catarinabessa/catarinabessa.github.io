@@ -83,18 +83,10 @@ nav a {
 
   & *:first-child {
     justify-self: start;
-
-    @media (max-width: 1024px) {
-      justify-self: auto;
-    }
   }
 
   & *:last-child {
     justify-self: end;
-
-    @media (max-width: 1024px) {
-      justify-self: auto;
-    }
   }
 }
 
@@ -112,7 +104,7 @@ nav a {
   background:#372222;;
   padding-inline: 1.5rem;
   gap: 3rem;
-  max-height: 2.75rem;
+  max-height: 4rem;
   width: 100%;
 
   @media (min-width: 1024px) {
@@ -121,24 +113,16 @@ nav a {
 
   & *:first-child {
     justify-self: start;
-
-    @media (min-width: 1024px) {
-      justify-self: auto;
-    }
   }
 
   & *:last-child {
     justify-self: end;
-
-    @media (min-width: 1024px) {
-      justify-self: auto;
-    }
   }
 }
 
 .buttons-mobile {
-  height: 1.25rem;
-  margin-bottom: 0.40rem;
+  height: 2rem;
+  margin-bottom: 0.1rem;
 
   @media (min-width: 1024px) {
     display: none;
