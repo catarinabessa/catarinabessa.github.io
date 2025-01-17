@@ -16,8 +16,8 @@
   padding: 0 6.5rem;
 
   @media (max-width: 1024px) {
-    height: 14rem;
-    margin-bottom: -1.5rem;
+    height: 9rem;
+    margin-top: -0.75rem;
 }
 }
 
@@ -36,6 +36,10 @@
   animation: scroll 60s linear infinite;
   display: flex;
   width: calc(10rem * 7);
+
+  @media (max-width: 1024px) {
+    width: calc(8rem * 7);
+}
 }
 
 .slider .slide {
