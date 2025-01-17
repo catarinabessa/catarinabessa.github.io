@@ -30,6 +30,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+  @media (max-width: 1024px) {
+    gap: 0.75rem;
+  }
 }
 
 nav a {
@@ -50,6 +54,10 @@ nav a {
   background:#372222;;
   gap: 3rem;
   padding-inline: 5rem;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 
   @media (max-width: 1024px) {
     display: none;
@@ -73,9 +81,9 @@ nav a {
 }
 
 .sticky {
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 1000;
+  z-index: 100;
 }
 
 .headbar-mobile {
@@ -86,7 +94,8 @@ nav a {
   background:#372222;;
   padding-inline: 1.5rem;
   gap: 3rem;
-  min-height: 4rem;
+  max-height: 2.75rem;
+  width: 100%;
 
   @media (min-width: 1024px) {
     display: none;
@@ -110,7 +119,8 @@ nav a {
 }
 
 .buttons-mobile {
-  height: 1.85rem;
+  height: 1.25rem;
+  margin-bottom: 0.40rem;
 
   @media (min-width: 1024px) {
     display: none;
@@ -139,14 +149,22 @@ nav a {
 
 .spacer {
   height: 3rem;
+
+  @media (max-width: 1024px) {
+    display:none;
+}
 }
 
 .spacer-mobile {
-  height: 1.5rem;
+  height: 2.5rem;
 
   @media (min-width: 1024px) {
     display: none;
   }
+}
+
+.rotate {
+  transform: rotate(3.142rad);
 }
 
 .cat {

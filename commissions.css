@@ -22,6 +22,7 @@
     @media (max-width: 1024px) {
         font-size: 3rem;
         text-align: center;
+        padding: 0rem;
     }
 }
 
@@ -38,6 +39,37 @@
     @media (max-width: 1024px) {
         font-size: 1rem;
         max-width: 330px;
+        padding: 1rem 1rem;
+    }
+}
+
+.cute1 {
+    color: #372222;
+    font-family:"Comic Sans MS";
+    font-size: 1rem;
+    text-align: center;
+    max-width: 330px;
+    align-self: center;
+    font-weight: bold;
+    margin-bottom: -1.5rem;
+
+    @media (min-width: 1024px) {
+        display: none;
+    }
+}
+
+.cute2 {
+    color: #372222;
+    font-family:"Comic Sans MS";
+    font-size: 1rem;
+    text-align: center;
+    max-width: 330px;
+    align-self: center;
+    font-weight: bold;
+    margin-top: -1.5rem;
+
+    @media (min-width: 1024px) {
+        display: none;
     }
 }
 
@@ -63,11 +95,34 @@
       }
 }
 
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    max-width: var(--main-content-width);
+    align-self: center;
+    padding: 0 1rem;
+
+    @media (min-width: 1024px) {
+        display: none;
+      }
+}
+
 .strawberries {
     height: 6rem;
     opacity: 0.85;
 
     @media (max-width: 1024px) {
-        height: 3.5rem;
+        display: none;
+    }
+}
+
+.strawberries-mobile {
+    height: 2rem;
+    opacity: 0.85;
+
+    @media (min-width: 1024px) {
+        display: none;
     }
 }

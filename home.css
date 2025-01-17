@@ -71,10 +71,10 @@
     font-family: "Chocolate Bar Demo Regular";
     font-size: 12rem;
     letter-spacing: -1.5rem;
-    margin-top: -1.5rem;
 
     @media (max-width: 1024px) {
-        font-size: 10rem;
+        font-size: 8.5rem;
+        margin-top: -1rem;
     }
 }
 
