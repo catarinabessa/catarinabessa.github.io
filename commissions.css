@@ -83,7 +83,7 @@
 
 .container3 {
     display: grid;
-    grid-template-columns: 1fr 9fr 1fr;
+    grid-template-columns: 1fr 6.5fr 1fr;
     align-items: center;
     justify-items: center;
     max-width: var(--main-content-width);
@@ -95,9 +95,9 @@
       }
 }
 
-.container2 {
+.container-mobile {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
     max-width: var(--main-content-width);

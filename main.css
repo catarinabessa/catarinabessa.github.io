@@ -2,6 +2,24 @@
   --main-content-width: 1024px
 }
 
+::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b05c66;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #8a4a51;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(176, 92, 102, 0.13);
+}
+
+
 @font-face {
   font-family: "Chocolate Bar Demo Regular";
   src: url(fonts/chocolate-bar-demo.regular.otf) format('opentype');
@@ -297,7 +315,7 @@ nav a {
   @media (max-width: 1024px) {
     bottom: -1.4rem;
     padding: 0.3rem 0;
-    padding-left: 0.7rem;
+    padding-left: 1rem;
     
   }
 }

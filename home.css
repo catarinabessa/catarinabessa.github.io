@@ -68,12 +68,13 @@
 }
 
 #headline {
-        color:white;
+        opacity: 0;
     }
 
     /* When ready, visibility stays the same but transformation occurs */
     #headline.ready {
         color: #D26C79;
+        opacity: 1;
     }
 
 .headline {
