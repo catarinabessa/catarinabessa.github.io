@@ -104,7 +104,7 @@ nav a {
   background:#372222;;
   padding-inline: 1.5rem;
   gap: 3rem;
-  max-height: 4rem;
+  min-height: 6rem;
   width: 100%;
 
   @media (min-width: 1024px) {
@@ -121,7 +121,7 @@ nav a {
 }
 
 .buttons-mobile {
-  height: 2rem;
+  height: 2.5rem;
   margin-bottom: 0.1rem;
 
   @media (min-width: 1024px) {
