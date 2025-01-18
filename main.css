@@ -161,6 +161,9 @@ nav a {
   @media (min-width: 1024px) {
     display: none;
   }
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    height: 2rem;
+}
 }
 
 .rotate {
