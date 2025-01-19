@@ -163,7 +163,7 @@ nav a {
   }
 }
 
-@media (min-resolution: 105dpi) and (max-resolution: 192dpi) {
+@media (min-width: 1024px), (min-resolution: 105dpi) and (max-resolution: 192dpi) {
   .spacer-mobile {
     display: none;
   }
@@ -174,7 +174,7 @@ nav a {
   height: 55px;
 }
 
-@media (min-resolution: 105dpi) and (max-resolution: 192dpi) {
+@media (min-width: 1024px), (min-resolution: 105dpi) and (max-resolution: 192dpi) {
   .spacer-more {
     visibility: visible;
   }
