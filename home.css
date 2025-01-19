@@ -10,6 +10,16 @@
     }
 }
 
+.in-container {
+    display: grid;
+    grid-template-rows: 0.3fr 1fr 0.3fr;
+    align-items: center;
+
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}
+
 .container-mobile {
     display: grid;
     padding: 0 5rem;
@@ -85,10 +95,22 @@
     align-self: center;
 
     @media (max-width: 1024px) {
-        font-size: 8.5rem;
-        margin-top: -1rem;
-        transform: rotate(-0.09rad);
-        margin-right: 1.25rem;
+        display: none;
+    }
+}
+
+.headline-mobile {
+    color: #D26C79;
+    font-family: "Chocolate Bar Demo Regular";
+    letter-spacing: -1.5rem;
+    align-self: center;
+    font-size: 8.5rem;
+    margin-top: -1rem;
+    transform: rotate(-0.09rad);
+    margin-right: 1.25rem;
+
+    @media (min-width: 1024px) {
+        display: none;
     }
 }
 
