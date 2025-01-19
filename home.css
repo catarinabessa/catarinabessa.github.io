@@ -62,6 +62,7 @@
         font-size: 1rem;
         font-weight: bold;
         padding-top: 1rem;
+        flex-wrap: wrap;
 
     @media (min-width: 1024px) {
         display: none;
@@ -90,6 +91,7 @@
         margin-top: -1rem;
         transform: rotate(-0.09rad);
         margin-right: 1.25rem;
+        flex-wrap: wrap;
     }
 }
 
@@ -99,6 +101,7 @@
 
     @media (max-width: 1024px) {
         width: 18rem;
+        flex-wrap: wrap;
     }
 }
 
@@ -109,9 +112,9 @@
     gap: 0.5rem;
     margin-top: 0.5rem;
 
-
     @media (max-width: 1024px) {
         height: 3.5rem;
+        flex-wrap: wrap;
     }
 }
 
@@ -121,5 +124,6 @@
 
     @media (max-width: 1024px) {
         padding: 0.5rem;
+        flex-wrap: wrap;
     }
 }
