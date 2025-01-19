@@ -156,6 +156,7 @@
 .icon-mobile {
     height: 100%;
     padding: 0.5rem;
+    max-width: 3rem;
 
     @media (min-width: 1024px) {
         display: none;
