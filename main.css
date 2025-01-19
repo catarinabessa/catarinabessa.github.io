@@ -170,7 +170,7 @@ nav a {
 
 .spacer-more {
   visibility: none;
-  height: 55px;
+  height: 50px;
 }
 
 @media (min-width: 1024px), (min-resolution: 105dpi) and (max-resolution: 192dpi) {
