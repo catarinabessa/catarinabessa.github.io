@@ -28,7 +28,7 @@
 
 .text {
     color: #372222;
-    font-family:"Comic Sans MS", sans-serif;
+    font-family:"Comic Sans MS";
     font-size: 1.5rem;
     text-align: center;
     max-width: var(--main-content-width);
@@ -45,7 +45,7 @@
 
 .cute1 {
     color: #372222;
-    font-family:"Comic Sans MS", sans-serif;
+    font-family:"Comic Sans MS";
     font-size: 1rem;
     text-align: center;
     max-width: 330px;
@@ -60,7 +60,7 @@
 
 .cute2 {
     color: #372222;
-    font-family:"Comic Sans MS", sans-serif;
+    font-family:"Comic Sans MS";
     font-size: 1rem;
     text-align: center;
     max-width: 330px;
