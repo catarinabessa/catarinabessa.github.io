@@ -14,7 +14,7 @@
         setTimeout(() => {
             setRadius(); // Apply the curve
             headline.classList.add("ready"); // Add a class to make it fully visible
-        }, 50); // Adjust delay as needed
+        }, 100); // Adjust delay as needed
 
         // Update the radius on window resize
         window.addEventListener("resize", setRadius);
