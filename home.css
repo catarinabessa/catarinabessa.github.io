@@ -24,6 +24,8 @@
     display: flex; 
     flex-direction: column;
     justify-content: center;
+    align-self: center;
+    max-width: 300px;
     align-items: center;
     padding: 0.25rem;
     
@@ -124,7 +126,6 @@
     gap: 0.5rem;
     margin-top: 0.5rem;
 
-
     @media (max-width: 1024px) {
         display: none;
     }
@@ -145,7 +146,7 @@
     height: 3.5rem;
     gap: 0.5rem;
     margin-top: 0.5rem;
-
+    max-width: 300px;
 
     @media (min-width: 1024px) {
         height: 3.5rem;
