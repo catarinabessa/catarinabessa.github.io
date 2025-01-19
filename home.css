@@ -21,13 +21,12 @@
 }
 
 .container-mobile {
-    grid-template-columns: 1fr;
-    padding: 0.25rem;
-    display: grid;
-    align-self: center;
-    align-items: center;
+    display: flex; 
+    flex-direction: column;
     justify-content: center;
-
+    align-items: center;
+    padding: 0.25rem;
+    
     @media (min-width: 1024px) {
         display: none;
     }
@@ -112,8 +111,6 @@
 .pfp-mobile {
     width: 18rem;
     align-self: center;
-    align-items: center;
-    justify-content: center;
 
     @media (min-width: 1024px) {
         display: none;
