@@ -67,7 +67,7 @@
     margin-top: 1rem;
 
     @media (max-width: 1024px) {
-        height: 13rem;
+        width: 10rem;
         border-radius: 1.75rem;
     }
 }
