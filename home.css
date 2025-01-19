@@ -8,6 +8,7 @@
         grid-template-columns: 1fr;
         align-self: center;
         padding: 0.25rem;
+        display: grid;
     }
 }
 
